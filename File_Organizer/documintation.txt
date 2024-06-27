@@ -1,0 +1,26 @@
+#######################################
+Bash Script to Organize Files
+
+#######################simple description################################### This script organizes files in the directory based on their types into separate subdirectories. It moves files without extensions to a "MISC/" directory and categorizes files with extensions into directories named after their file types. #######################################
+
+Arguments:
+
+1-The script should take a directory path as an argument and organize the files within that directory.
+
+Features:
+
+1-script create subdirectories based on the file extensions (e.g., "txt" for text files, "jpg" for image files).
+
+2-Files with unknown or no file extensions should be placed in a "misc" subdirectory.
+
+3-If a subdirectory for a particular file type already exists, the script should move the files into that existing directory. 4-The script should handle edge cases, such as files with no extensions or hidden files (those starting with a dot).
+
+input:
+
+unorgnized directory with diffrent type of file
+
+output:
+
+orgnized direcory with subdirectory that have name of extantion of files
+
+#######################################
